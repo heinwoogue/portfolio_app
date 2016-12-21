@@ -1,0 +1,24 @@
+/* footer */
+footer.footer{
+	background-color: green;
+	border: 1px solid green;
+	color: white;
+	a {
+		color: white;
+		&:hover {
+			color: white;
+		}	
+	}
+	small {
+		float: left;
+	}
+	ul {
+		float: right;
+		list-style: none;
+		li {
+			float: left;
+			margin-left: 15px;
+			color: white;
+		}
+	}
+}
