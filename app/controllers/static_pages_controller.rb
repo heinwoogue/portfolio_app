@@ -10,4 +10,16 @@ class StaticPagesController < ApplicationController
 
   def help
   end
+
+  def whoAmI
+  end
+
+  def thoughtsOnIt
+  end
+
+  def hireMe
+  end
+
+  def projects
+  end
 end
