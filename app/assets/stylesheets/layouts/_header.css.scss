@@ -1,24 +1,16 @@
 /* header */
-#logo {
-	float: left;
-	margin-right: 10px;
-	font-size: 1.7em;
-	color: white;
-	text-transform: uppercase;
-	letter-spacing: -1px;
-	padding-top: 9px;
-	font-weight: bold;
-
-	&:hover {
-		color: white;
-		text-decoration: none;
-	}
-}
-
-#usc-logo{
-	float: left;
-}
-
 header{
-	background-color: black;
+	background-color: #233c8e;
+	div{
+		ul {
+			li {
+				a{
+					color: white;
+					&:hover {
+						color: #233c8e;
+					}	
+				}
+			}
+		}
+	}
 }

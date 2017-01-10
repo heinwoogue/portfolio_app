@@ -1,24 +1,20 @@
 /* footer */
 footer.footer{
-	background-color: black;
-	border: 1px solid black;
+	background-color: #233c8e;
+	border: 1px solid #233c8e;
 	color: white;
 	a {
 		color: white;
 		&:hover {
-			color: white;
+			color: #233c8e;
 		}	
 	}
-	small {
-		float: left;
-	}
-	ul {
-		float: right;
-		list-style: none;
-		li {
-			float: left;
-			margin-left: 15px;
-			color: white;
-		}
-	}
+}
+div#rightFooter{
+	float: right;
+	padding-right: 15px;
+}
+div#leftFooter{
+	float: left;
+	padding-left: 15px;
 }
